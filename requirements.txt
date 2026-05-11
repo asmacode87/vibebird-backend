@@ -1,6 +1,9 @@
 fastapi
 uvicorn
+groq
+birdnetlib
+pydub
 librosa
 numpy
-google-generativeai
 python-multipart
+python-dotenv
