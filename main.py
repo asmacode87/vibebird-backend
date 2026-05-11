@@ -19,10 +19,10 @@ GROQ_KEY = os.getenv("GROQ_API_KEY")
 groq_client = Groq(api_key=GROQ_KEY)
 
 # FFmpeg Paths
-ffmpeg_path = r"C:\ffmpeg\bin"
-os.environ["PATH"] += os.pathsep + ffmpeg_path
-AudioSegment.converter = os.path.join(ffmpeg_path, "ffmpeg.exe")
-AudioSegment.ffprobe = os.path.join(ffmpeg_path, "ffprobe.exe")
+# ffmpeg_path = r"C:\ffmpeg\bin"
+# os.environ["PATH"] += os.pathsep + ffmpeg_path
+# AudioSegment.converter = os.path.join(ffmpeg_path, "ffmpeg.exe")
+# AudioSegment.ffprobe = os.path.join(ffmpeg_path, "ffprobe.exe")
 
 app = FastAPI()
 
